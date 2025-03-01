@@ -2,6 +2,7 @@ import HeroSection from "./components/HeroSection";
 import HowitWorks from "./components/HowitWorks";
 import Navbar from "./components/Navbar";
 import KeyFeatures from "./components/KeyFeatures";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <HowitWorks />
       <KeyFeatures />
+      <Analytics />
     </main>
   );
 }
